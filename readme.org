@@ -1,7 +1,7 @@
 * MeshDR
-Generate random deformations of meshes for domain randomization. Set parameters to randomly generate thousands of NURB spline and the resulting deformed mesh STL files.
+Generate random deformations of meshes for domain randomization. Set parameters to randomly generate thousands of NURB splines and save the resulting deformed mesh STL files.
 
-See `python meshdr/meshdr.py --help`
+See =python meshdr/meshdr.py --help=
 
 * Examples
 All mesh deformations are randomly generation with spline offsets normally distributed. Screenshots are of just a single representative deformation out of infinite possibile deformations.
