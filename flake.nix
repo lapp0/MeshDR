@@ -66,23 +66,24 @@
 
         pygem = pythonPackages.buildPythonPackage rec {
           pname = "pygem";
-          version = "0.1.6";
-          src = pythonPackages.fetchPypi {
-            inherit pname version;
-            sha256 = "sha256-30MGGMJe7lcsvSqp+hU/AcTpiuihgJLT3OmpZmEkXm4=";
+          version = "2.0.3";
+          src = pkgs.fetchgit {
+            url = "https://github.com/mathLab/PyGeM.git";
+            rev = "c2895a120332fbaf6a36db5088d5ee3d453b1784";
+            sha256 = "sha256-qmLuGFUIMi+MWPEgZiQrz8fadIzvaHc7TH0zMkwx/qQ=";
           };
           propagatedBuildInputs = with pythonPackages; [
             numpy
             scipy
             matplotlib
             pandas
-            python-lxml
-            python-requests
+            future
+            vtk
           ];
           checkInputs = with pythonPackages; [
-            python-requests
             pytest
           ];
+          doCheck = false;
         };
 
       in {
@@ -94,6 +95,7 @@
               src = ./.;
               propagatedBuildInputs = [
                 pygem
+                pythonPackages.numpy-stl
               ];
               doCheck = false;
             }) { };
