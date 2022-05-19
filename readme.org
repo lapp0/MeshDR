@@ -1,7 +1,11 @@
 * MeshDR
 Generate random deformations of meshes for domain randomization. Set parameters to randomly generate thousands of NURB splines and save the resulting deformed mesh STL files.
 
+Intended for use with Isaac Sim / Gym, but may find uses in other places too.
+
 See =python meshdr/meshdr.py --help=
+
+
 
 * Examples
 All mesh deformations are randomly generation with spline offsets normally distributed. Screenshots are of just a single representative deformation out of infinite possibile deformations of a given set of input parameters.
