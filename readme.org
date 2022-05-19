@@ -19,7 +19,7 @@ All mesh deformations are randomly generation with spline offsets normally distr
 
 [[./img/0.1std_3ctr.png]]
 
-Standard Deviation = 0.2; Control Points Per Axis = 2 (total 8)
+** Standard Deviation = 0.2; Control Points Per Axis = 2 (total 8)
 
 [[./img/0.2std_2ctr.png]]
 
@@ -31,7 +31,7 @@ Standard Deviation = 0.2; Control Points Per Axis = 2 (total 8)
 
 [[./img/0.1std_15ctr.png]]
 
-**
+
 ** Standard Deviation = 0.25; Control Points Per Axis = 15 (total 3375)
 
 [[./img/0.25std_15ctr.png]]
