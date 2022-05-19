@@ -1,0 +1,30 @@
+* MeshDR
+Generate random deformations of meshes for domain randomization. Set parameters to randomly generate thousands of NURB spline and the resulting deformed mesh STL files.
+
+See `python meshdr/meshdr.py --help`
+
+* Examples
+
+** Base Mesh (No Deformations)
+
+[[./img/base.png]]
+
+** Standard Deviation = 0.1; Control Points Per Axis = 3 (total 27)
+
+[[./img/0.1std_3ctr.png]]
+
+** Standard Deviation = 0.05; Control Points Per Axis = 6 (total 216)
+
+[[./img/0.05std_6ctr.png]]
+
+** Standard Deviation = 0.1; Control Points Per Axis = 15 (total 3375)
+
+[[./img/0.1std_15ctr.png]]
+
+** Standard Deviation = 0.2; Control Points Per Axis = 2 (total 8)
+
+[[./img/0.2std_2ctr.png]]
+
+** Standard Deviation = 0.25; Control Points Per Axis = 15 (total 3375)
+
+[[./img/0.25std_15ctr.png]]
