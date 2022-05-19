@@ -4,7 +4,7 @@ Generate random deformations of meshes for domain randomization. Set parameters 
 See =python meshdr/meshdr.py --help=
 
 * Examples
-All mesh deformations are randomly generation with spline offsets normally distributed. Screenshots are of just a single representative deformation out of infinite possibile deformations.
+All mesh deformations are randomly generation with spline offsets normally distributed. Screenshots are of just a single representative deformation out of infinite possibile deformations of a given set of input parameters.
 
 
 ** Base Mesh (No Deformations)
